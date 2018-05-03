@@ -102,6 +102,6 @@ def timer(h=0,m=0):
 
 #----------调用------------
 try:
-    timer(15,30)
+    timer(15,30) # 每天爬去新闻并发送邮件的时间
 except Exception as e:
     print('exception:'+str(e))
